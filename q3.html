@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
     <body>
-
-        <h1>My First Heading</h1>
-
-        <p>My first paragraph.</p>
-
+        <h1>University Registration Form</h1>
+        <form action="" method="post">
+            <p>
+                <label>First Name:
+                    <input type="text" name="firstname" required>
+                </label>
+            </p>
+            <p>
+                <label>Last Name:
+                    <input type="text" name="lastname" required>
+                </label>
+            </p>
+                <label>Email Address:
+                    <input type="text" name="email" required>
+                </label>
+            </p>
+            <details>
+                <summary>Additional Info</summary>
+                <label>What year are you currently in?
+                    <select name="year">
+                        <option>Not yet in university</option>
+                        <option>Freshman</option>
+                        <option>Sophomore</option>
+                        <option>Junior</option>
+                        <option>Senior</option>
+                        <option>Graduate</option>
+                    </select>
+                </label>
+            </details>
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </p>
+        </form>
     </body>
 </html>
