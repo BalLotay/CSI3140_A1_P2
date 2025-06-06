@@ -1,0 +1,76 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 80%;
+    height: auto;
+}
+
+header {
+    position: relative;
+    background: linear-gradient(to bottom, #005b8f, #003d56);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 12px solid darkred;
+    max-height: 100px;
+}
+
+#profilepic {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header h1 {
+    font-size: 2em;
+    text-shadow: 2px;
+}
+
+header p {
+    color: #cce6ff;
+    font-size: 1em;
+}
+
+nav a {
+    color: #cce6ff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("space.jpg");
+    color: #333;
+}
+
+body h2 {
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
