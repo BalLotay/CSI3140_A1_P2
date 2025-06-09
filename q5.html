@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <meta charset="utf-8">
         <title>John Cena Fanclub</title>
         <link rel="stylesheet" href="Stylesheets/q5Styles.css">
+        <script src="Scripts/q5.js" defer></script>
     </head>
 
     <body>
@@ -24,22 +28,121 @@
 
         <section id="summary">
             <h3>Summary: </h3>
-            <p>This is my summary</p>
+            <p>Driven and dynamic performer with a passion for excellence in all pursuits, from center stage to community service. Seeking to leverage over two decades of experience in entertainment, athletics, and public speaking to inspire others, build impactful partnerships, and deliver world-class results.</p>
         </section>
 
         <section id="education">
             <h3>Education History: </h3>
-            <p>This is my Education History</p>
+
+            <p> Springfield College<br>
+                Bachelor of Science in Exercise Physiology<br>
+                Graduated: 1999<br>
+                <ul>
+                    <li>Dean's list recipient</li>
+                    <li>Captain of the college football team</li>
+                    <li>Developed a deep interest in human performance and discipline, laying the foundation for future athletic and entertainment careers.</li>
+                </ul>
+            <p>
         </section>
 
         <section id="experience">
             <h3>Work Experience: </h3>
-            <p>This is my Work Experience</p>
+            <p>
+                Make-A-Wish Foundation, Volunteer (2004-Present)
+                <ul>
+                    <li>Granted over 650 wishes for children with critical illnesses, becoming the most-requested celebrity in the organization's history </li>
+                    <li>Regularly visited hospitals and participated in fundraising events to uplift and inspire young fans</li>
+                </ul>
+            </p>
+            <p>
+                World Wrestling Entertainment (WWE), Professional Wrestler & Host (2002-Present)
+                <ul>
+                    <li>16-time World Champion, known for strong work ethic and connection with fans</li>
+                    <li>Represented WWE in global tours, media appearances, and charity events</li>
+                    <li>Hosted TV shows and starred in feature films, developing strong communication and leadership skills</li>
+                </ul>
+            </p>
         </section>
             
         <section id="skills">
             <h3>Skills: </h3>
-            <p>These are my Skills</p>
+            <ul>
+                <li>Public Speaking & Hosting</li>
+                <li>Fitness & Athletic Training</li>
+                <li>Acting & On-Camera Performance</li>
+                <li>Philanthropy & Community Engagement</li>
+                <li>Branding & Marketing</li>
+                <li>Bilingual (English & Mandarin)</li>
+                <li>Resilience Under Pressure</li>
+            </ul>
+        </section>
+
+        <button id="show-more">Show More</button>
+        <div id="more-details" class="hidden">
+            <section>
+                <h2>Certifications & Training</h2>
+                <ul>
+                    <li>Certified Personal Trainer - ACSM</li>
+                    <li>Mandarin Language Training - Conversational</li>
+                    <li>On-Camera Hosting - The Groundlings</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Media & Film Experience</h2>
+                <ul>
+                    <li>Lead in <em>The Marine</em>, <em>Peacemaker</em>, <em>F9</em></li>
+                    <li>Voice actor in <em>Ferdinand</em>, <em>TMNT</em></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Awards & Honors</h2>
+                <ul>
+                    <li>Teen Choice Award - Favorite Action Star</li>
+                    <li>Sports Illustrated Muhammad Ali Legacy Award (2018)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Public Appearances</h2>
+                <ul>
+                    <li>Host - <em>Wipeout</em>, <em>Saturday Night Live</em></li>
+                    <li>TIME 100 Most Influential People</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Personal Interests</h2>
+                <ul>
+                    <li>Fitness, anime, vintage cars, motivational reading</li>
+                    <li>Advocate for mental health and anti-bullying</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Testimonials</h2>
+                <blockquote>
+                “John is one of the hardest working individuals I've ever met.” - Dwayne 'The Rock' Johnson
+                </blockquote>
+                <blockquote>
+                “He walks the talk, both in and out of the ring.” - Stephanie McMahon
+                </blockquote>
+            </section>
+        </div>
+
+
+        <section>
+            <form action="" method="post" id="feedback-form">
+                <h3>Leave a Message or Feedback</h3>
+                <div class="label-container">
+                    <label>
+                        Name:
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </label>
+                    <br>
+                    <label>
+                        Message:
+                        <textarea id="message" name="message" rows="4" cols="40" placeholder="Your message or feedback" required></textarea>
+                    </label>
+                </div>
+                <button type="submit">Send</button>
+            </form>
         </section>
 
         <footer>
